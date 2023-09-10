@@ -644,9 +644,10 @@
           </li>
 
         </ul>
-        <form action="https://formsubmit.co/pavao@edu.univali.br" method="POST" class="section-contato__form">
-          <input type="hidden" name="_captcha" value="false">
-          <input type="hidden" name="_next" value="https://rafaelpavao.github.io/portfolio/index#section-contato">
+        <form action="https://api.web3forms.com/submit" method="POST" class="section-contato__form">
+          <input type="hidden" name="access_key" value="c79e47b7-b07e-40ea-a553-cdc9667a5ac8">
+          <input type="hidden" name="redirect" value="https://rafaelpavao.github.io/portfolio/index#section-contato">
+          <input type="hidden" name="from_name" value="Portfolio Form Submission">
           <input class="form-simples" placeholder="NOME" name="Nome" type="text" required>
           <input class="form-simples" placeholder="EMAIL" name="Email" type="text" required>
           <input class="form-simples" placeholder="TELEFONE" name="Telefone" type="text" required>
@@ -682,6 +683,7 @@
       </div>
   </section>
   <script defer src="script.js"></script>
+  <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 
 </html>
