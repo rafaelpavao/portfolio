@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,1,0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/08fc4d9812.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css" />
+  <title>Protifolio</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <ul class="navbar__icones" id="navbar__icones">
+        <li class="navbar__icone" data-text="Home">
+          <a class="icone__anchor" href="#section-home" >
+            <span class="material-symbols-outlined icone__span"> home</span>
+          </a>
+          <p class="icone__text" >Home</p>
+        </li>
+        <li class="navbar__icone" data-text="About">
+          <a class="icone__anchor" href="#section-sobre">
+            <span class="material-symbols-outlined icone__span"> person </span>
+          </a>
+          <p class="icone__text" >Sobre</p>
+        </li>
+        <li class="navbar__icone" data-text="Portfolio">
+          <a class="icone__anchor" href="#section-portfolio">
+            <span class="material-symbols-outlined icone__span"> business_center </span>
+          </a>
+          <p class="icone__text" >Portfolio</p>
+        </li>
+        <li class="navbar__icone" data-text="Skills">
+          <a class="icone__anchor" href="#section-skills">
+            <span class="material-symbols-outlined icone__span"> neurology </span>
+          </a>
+          <p class="icone__text" >Skills</p>
+        </li>
+        <li class="navbar__icone" data-text="Experience">
+          <a class="icone__anchor" href="#section-experiencia">
+            <span class="material-symbols-outlined icone__span"> demography </span>
+          </a>
+          <p class="icone__text" >Experiência</p>
+        </li>
+        <li class="navbar__icone" data-text="Education">
+          <a class="icone__anchor" href="#section-educacao">
+            <span class="material-symbols-outlined icone__span"> school </span>
+          </a>
+          <p class="icone__text" >Educação</p>
+        </li>
+        <li class="navbar__icone" data-text="Contact">
+          <a class="icone__anchor" href="#section-contato">
+            <span class="material-symbols-outlined icone__span"> call </span>
+          </a>
+          <p class="icone__text" >Contato</p>
+        </li>
+      </ul>
+      <a class="navbar__icone" id="icone-hamburger" href="#section-opcoes">
+        <span class="material-symbols-outlined icone__span hamburger"> reorder </span>
+      </a>
+    </nav>
+  </header>
+  <section class="section-home" id="section-home">
+    <div class="section-home__wrapper">
+      <div class="section-home__img">
+        <img class="section-home__img-conteudo" src="images/ragnar-capa.jpg" alt="RAGNAR CAPA" />
+      </div>
+      <main class="section-home__texto">
+        <p class="texto__intro">OLÁ!</p>
+        <span class="texto__titulo">EU SOU <h1 class="titulo__span">RAGNAR LOTHBROK</h1></span>
+        <p class="texto__descricao">
+          I'm a Tunisian based web designer & front‑end developer focused on
+          crafting clean & user‑friendly experiences, I am passionate about
+          building excellent software that improves the lives of those around
+          me.
+        </p>
+        <a class="botao_rodape" id="botao-home">MAIS</a>
+      </main>
+    </div>
+  </section>
+  <section class="section-sobre" id="section-sobre">
+
+    <div class="section-sobre__wrapper">
+      <div class="section-sobre__wrapper__content">
+        <div class="titulo">
+          <h2>| SOBRE</h2>
+        </div>
+        <div class="section-sobre__wrapper__info">
+          <ul class="section-sobre__info">
+            <li class="section-sobre__info__box">
+              <p class="box__titulo">NOME</p>
+              <span class="box__descricao">RAGNAR LOTHBROK</span>
+            </li>
+            <li class="section-sobre__info__box">
+              <p class="box__titulo">IDADE</p>
+              <span class="box__descricao">33 ANOS </span>
+            </li>
+            <li class="section-sobre__info__box">
+              <p class="box__titulo">PROFISSÃO</p>
+              <span class="box__descricao">DESENVOLVEDOR FULLSTACK</span>
+            </li>
+            <li class="section-sobre__info__box">
+              <p class="box__titulo">NATURALIDADE</p>
+              <span class="box__descricao">ITAJAÍ / SC</span>
+            </li>
+            <li class="section-sobre__info__box">
+              <p class="box__titulo">NACIONALIDADE</p>
+              <span class="box__descricao">BRASILEIRO</span>
+            </li>
+            <li class="section-sobre__info__box">
+              <p class="box__titulo">GITHUB</p>
+              <span class="box__descricao">WWW.GITHUB.COM/RAGNAR</span>
+            </li>
+          </ul>
+          <div class="section-sobre__img">
+            <figure><img class="img__conteudo" src="images/ragnar-sobre.jpg" alt="RAGNAR SOBRE" /></figure>
+          </div>
+        </div>
+        <a class="botao_rodape" href="#curriculo">CURRÍCULO</a>
+
+      </div>
+
+
+    </div>
+  </section>
+  <section class="section-portfolio" id="section-portfolio">
+    <div class="section-portfolio__wrapper">
+      <div class="titulo">
+        <h2>| PORTIFÓLIO</h2>
+      </div>
+      <div class="section-portfolio__wrapper__content">
+        <div class="section-portfolio__icones">
+          <a id="botao-portfolio__all" class="section-portfolio__icone" href="#all" onclick="">
+            <i class="fa-solid fa-border-all section-portfolio__span-icone"></i>
+          </a>
+          <a id="botao-portfolio__back-end" class="section-portfolio__icone" href="#back-end">
+            <span class="material-symbols-outlined section-portfolio__span-icone"> code_off </span>
+          </a>
+          <a id="botao-portfolio__front-end" class="section-portfolio__icone" href="#front-end">
+            <span class="material-symbols-outlined section-portfolio__span-icone"> palette </span>
+          </a>
+          <a id="botao-portfolio__figma" class="section-portfolio__icone" href="#figma" onclick="">
+            <span class="material-symbols-outlined section-portfolio__span-icone"> photo_camera </span>
+          </a>
+          
+        </div>
+        <ul class="section-portfolio__imagens">
+          <li>
+            <img class="section-portfolio__imagem back-end" src="images/portfolio-website-1.jpg" alt="" />
+          </li>
+          <li>
+            <img class="section-portfolio__imagem back-end" src="images/portfolio-website-2.jpg" alt="" />
+          </li>
+          <li>
+            <img class="section-portfolio__imagem front-end" src="images/portfolio-website-3.jpg" alt="" />
+          </li>
+          <li>
+            <img class="section-portfolio__imagem front-end" src="images/portfolio-website-4.jpg" alt="" />
+          </li>
+          <li>
+            <img class="section-portfolio__imagem figma" src="images/portfolio-website-6.jpg" alt="" />
+          </li>
+          <li>
+            <img class="section-portfolio__imagem figma" src="images/portfolio-website-7.jpg" alt="" />
+          </li>
+
+        </ul>
+        <a class="botao_rodape" href="https://github.com/rafaelpavao">MAIS</a>
+      </div>
+    </div>
+  </section>
+  <section class="section-skills" id="section-skills">
+
+    <div class="section-skills__wrapper">
+      <div class="titulo">
+        <h2>| Skills</h2>
+      </div>
+      <ul class="section-skills__lista">
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">HTML</span>
+          <img class="item__logo" src="images/html.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">CSS</span>
+          <img class="item__logo" src="images/css.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">C#</span>
+          <img class="item__logo" src="images/csharp.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">JavaScript</span>
+          <img class="item__logo" src="images/javascript.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">.Net Core</span>
+          <img class="item__logo" src="images/netcore.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">TypeScript</span>
+          <img class="item__logo" src="images/ts.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">React</span>
+          <img class="item__logo" src="images/react.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">VS Code</span>
+          <img class="item__logo" src="images/vscode.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">Git</span>
+          <img class="item__logo" src="images/git.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">PostgreSQL</span>
+          <img class="item__logo" src="images/postgresql.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">Webpack</span>
+          <img class="item__logo" src="images/webpack.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">Nginx</span>
+          <img class="item__logo" src="images/nginx.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">Ubuntu</span>
+          <img class="item__logo" src="images/ubuntu.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">AWS</span>
+          <img class="item__logo" src="images/aws.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">Photoshop</span>
+          <img class="item__logo" src="images/photoshop.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+        <li class="section-skills__item">
+          <span class="section-skills__item__titulo">Figma</span>
+          <img class="item__logo" src="images/figma.png" alt="" />
+          <ul class="section-skills__item-estrelas">
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star </span></li>
+            <li class="item-estrelas__estrela-wrapper"><span class="material-symbols-outlined estrela"> star_half </span></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </section>
+  </section>
+
+  <section class="section-experiencia" id="section-experiencia">
+    <div class="section-experiencia__wrapper">
+      <div class="titulo">
+        <h2>| EXPERIÊNCIA</h2>
+      </div>
+      <div class="section-experiencia__wrapper__content">
+        <div class="section-experiencia__wrapper__info">
+          <ul class="section-experiencia__info" id="section-experiencia__info">
+            <li class="info-box">
+              <div class="info-box__data">
+                <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+                <h6 class="data__periodo">2012 - 2014</h6>
+              </div>
+
+              <span class="info-box__titulo">GOOGLE</span>
+              <p class="info-box__descricao">
+                Estágio na Google atuando na equipe de desenvolvimento de
+                ferramentas para o ADS.
+              </p>
+            </li>
+
+            <li class="info-box">
+              <div class="info-box__data">
+                <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+                <h6 class="data__periodo">2014 - 2018</h6>
+              </div>
+
+              <span class="info-box__titulo">BOOKING</span>
+              <p class="info-box__descricao">
+                Cargo de desenvolvedor junior na equipe de desenvolvimento back
+                end.
+              </p>
+            </li>
+
+            <li class="info-box">
+              <div class="info-box__data">
+                <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+                <h6 class="data__periodo">2018 - 2021</h6>
+              </div>
+
+              <span class="info-box__titulo">FACEBOOK</span>
+              <p class="info-box__descricao">
+                Cargo de desenvolvedor pleno na equipe de criação da biblioteca
+                React.
+              </p>
+            </li>
+
+            <li class="info-box">
+              <div class="info-box__data">
+                <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+                <h6 class="data__periodo">2021 - 2022</h6>
+              </div>
+
+              <span class="info-box__titulo">TWITTER</span>
+              <p class="info-box__descricao">
+                Cargo de desenvolvedor sênior na equipe de criação do aplicativo
+                X.
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="section-experiencia__quadrados">
+          <div class="section-experiencia__quadrado">
+            <h1 class="quadrado__numero">9</h1>
+            <h2 class="quadrado__texto">ANOS DE ESPERIENCIA</h2>
+          </div>
+          <div class="section-experiencia__quadrado">
+            <h1 class="quadrado__numero">16</h1>
+            <h2 class="quadrado__texto">PROJETOS INDIVIDUAIS</h2>
+          </div>
+          <div class="section-experiencia__quadrado">
+            <h1 class="quadrado__numero">72</h1>
+            <h2 class="quadrado__texto">PROJETOS EM EQUIPE</h2>
+          </div>
+          <div class="section-experiencia__quadrado">
+            <h1 class="quadrado__numero">87</h1>
+            <h2 class="quadrado__texto">CURSOS DE ESPECIALIZAÇÃO</h2>
+          </div>
+        </div>
+      </div>
+      <a class="botao_rodape" id="botao-experiencia" href="#mais">MAIS</a>
+    </div>
+  </section>
+
+  <section class="section-educacao" id="section-educacao">
+    <div class="section-educacao__wrapper">
+
+      <div class="titulo">
+        <h2>| EDUCAÇÃO</h2>
+      </div>
+
+      <div class="section-educacao__coluna__wrapper" id="section-educacao__coluna__wrapper">
+        <ul class="section-educacao__coluna">
+          <li class="section-educacao__coluna__titulo">
+            BACHARELADO E PÓS-GRADUAÇÃO
+          </li>
+          <li class="info-box">
+            <div class="info-box__data">
+              <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+              <h6 class="data__periodo">2014 - 2018</h6>
+            </div>
+
+            <span class="info-box__titulo">BOOKING</span>
+            <p class="info-box__descricao">
+              Cargo de desenvolvedor junior na equipe de desenvolvimento back
+              end.
+            </p>
+          </li>
+
+          <li class="info-box">
+            <div class="info-box__data">
+              <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+              <h6 class="data__periodo">2014 - 2018</h6>
+            </div>
+
+            <span class="info-box__titulo">BOOKING</span>
+            <p class="info-box__descricao">
+              Cargo de desenvolvedor junior na equipe de desenvolvimento back
+              end.
+            </p>
+          </li>
+
+          <li class="info-box">
+            <div class="info-box__data">
+              <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+              <h6 class="data__periodo">2014 - 2018</h6>
+            </div>
+
+            <span class="info-box__titulo">BOOKING</span>
+            <p class="info-box__descricao">
+              Cargo de desenvolvedor junior na equipe de desenvolvimento back
+              end.
+            </p>
+          </li>
+        </ul>
+        <ul class="section-educacao__coluna">
+          <li class="section-educacao__coluna__titulo">
+            CURSO DE ESPECIALIZAÇÃO
+          </li>
+          <li class="info-box">
+            <div class="info-box__data">
+              <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+              <h6 class="data__periodo">2014 - 2018</h6>
+            </div>
+
+            <span class="info-box__titulo">BOOKING</span>
+            <p class="info-box__descricao">
+              Cargo de desenvolvedor junior na equipe de desenvolvimento back
+              end.
+            </p>
+          </li>
+
+          <li class="info-box">
+            <div class="info-box__data">
+              <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+              <h6 class="data__periodo">2014 - 2018</h6>
+            </div>
+
+            <span class="info-box__titulo">BOOKING</span>
+            <p class="info-box__descricao">
+              Cargo de desenvolvedor junior na equipe de desenvolvimento back
+              end.
+            </p>
+          </li>
+
+          <li class="info-box">
+            <div class="info-box__data">
+              <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+              <h6 class="data__periodo">2014 - 2018</h6>
+            </div>
+
+            <span class="info-box__titulo">BOOKING</span>
+            <p class="info-box__descricao">
+              Cargo de desenvolvedor junior na equipe de desenvolvimento back
+              end.
+            </p>
+          </li>
+        </ul>
+
+        <ul class="section-educacao__coluna">
+          <li class="section-educacao__coluna__titulo">
+            CURSO DE ESPECIALIZAÇÃO
+          </li>
+          <li class="info-box">
+            <div class="info-box__data">
+              <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+              <h6 class="data__periodo">2014 - 2018</h6>
+            </div>
+
+            <span class="info-box__titulo">BOOKING</span>
+            <p class="info-box__descricao">
+              Cargo de desenvolvedor junior na equipe de desenvolvimento back
+              end.
+            </p>
+          </li>
+
+          <li class="info-box">
+            <div class="info-box__data">
+              <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+              <h6 class="data__periodo">2014 - 2018</h6>
+            </div>
+
+            <span class="info-box__titulo">BOOKING</span>
+            <p class="info-box__descricao">
+              Cargo de desenvolvedor junior na equipe de desenvolvimento back
+              end.
+            </p>
+          </li>
+
+          <li class="info-box">
+            <div class="info-box__data">
+              <span class="material-symbols-outlined data__icone-calendario"> calendar_month </span>
+              <h6 class="data__periodo">2014 - 2018</h6>
+            </div>
+
+            <span class="info-box__titulo">BOOKING</span>
+            <p class="info-box__descricao">
+              Cargo de desenvolvedor junior na equipe de desenvolvimento back
+              end.
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="section-educacao__rodape"><a id="botao-educacao" class="botao_rodape" href="#mais">MAIS</a></div>
+
+    </div>
+
+  </section>
+
+  <section class="section-contato" id="section-contato">
+    <div id="snackbar">E-mail successfully sent.</div>
+    <div class="section-contato__wrapper">
+      <div class="titulo">
+        <h2>| CONTATO</h2>
+      </div>
+      <div class="section-contato__wrapper__content">
+        <ul class="section-contato__contacts">
+
+          <li class="section-contato__item">
+            <i class="fa-regular fa-envelope contato__icone"></i>
+            <div class="section-contato__item__texto">
+              <p class="texto__rede-social">E-MAIL</p>
+              <span class="texto__contato">rafapavao000@gmail.com</span>
+            </div>
+
+          </li>
+          <li class="section-contato__item">
+            <i class="fa-solid fa-phone fa-flip-horizontal contato__icone"></i>
+            <div class="section-contato__item__texto">
+              <p class="texto__rede-social">TELEFONE</p>
+              <span class="texto__contato">(48) 9 9117-4100</span>
+            </div>
+
+          </li>
+          <li class="section-contato__item">
+            <a class="contato__link" href="https://api.whatsapp.com/send?phone=5548991174100"><i
+                class="fa-brands fa-whatsapp contato__icone"></i></a>
+            <div class="section-contato__item__texto">
+              <p class="texto__rede-social">WHATSAPP</p>
+              <span class="texto__contato">(48) 9 9117-4100</span>
+            </div>
+
+          </li>
+          <li class="section-contato__item">
+            <i class="fa-brands fa-telegram contato__icone"></i>
+            <div class="section-contato__item__texto">
+              <p class="texto__rede-social">TELEGRAM</p>
+              <span class="texto__contato">(48) 9 9999-99999</span>
+            </div>
+
+          </li>
+          <li class="section-contato__item">
+            <i class="fa-brands fa-skype contato__icone"></i>
+            <div class="section-contato__item__texto">
+              <p class="texto__rede-social">SKYPE</p>
+              <span class="texto__contato">ragnar_skype</span>
+            </div>
+
+          </li>
+
+        </ul>
+        <form action="https://formsubmit.co/pavao@edu.univali.br" method="POST" class="section-contato__form">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/#section-contato">
+          <input class="form-simples" placeholder="NOME" name="Nome" type="text" required>
+          <input class="form-simples" placeholder="EMAIL" name="Email" type="text" required>
+          <input class="form-simples" placeholder="TELEFONE" name="Telefone" type="text" required>
+          <input class="form-simples" placeholder="ASSUNTO" name="Assunto" type="text" required>
+          <textarea class="form-longo" placeholder="MENSAGEM" name="Mensagem" type="text" required></textarea>
+          <button onclick="showSnackbar()" class="botao_rodape" id="botao-contato" type="submit">ENVIAR</button>
+
+        </form>
+      </div>
+      <div class="section-contato__rodape">
+        <div class="section-contato__rodape__icones">
+          <a class="section-contato__rodape__icone"
+            href="https://www.linkedin.com/in/rafael-rigo-teixeira-pav%C3%A3o-35899221a/">
+            <i class="fa-brands fa-linkedin-in icone__rede"></i>
+          </a>
+
+          <a href="https://twitter.com/Rafaelpavaoo" class="section-contato__rodape__icone">
+            <i class="fa-brands fa-twitter icone__rede"></i>
+          </a>
+
+          <a href="https://www.instagram.com/rafapavao0/" class="section-contato__rodape__icone">
+            <i class="fa-brands fa-instagram icone__rede"></i>
+          </a>
+
+          <a class="section-contato__rodape__icone">
+            <i class="fa-brands fa-youtube icone__rede"></i>
+          </a>
+
+          <a class="section-contato__rodape__icone">
+            <i class="fa-brands fa-facebook-f icone__rede"></i>
+          </a>
+        </div>
+      </div>
+  </section>
+  <script defer src="script.js"></script>
+</body>
+
+</html>
